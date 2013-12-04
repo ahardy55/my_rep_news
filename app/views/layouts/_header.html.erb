@@ -1,0 +1,21 @@
+<header> 
+  <div class="left">
+    <%= link_to('#') do %>
+      <li class="one">MY</li> 
+      <li class="two">REPRESENATIVE</li> 
+      <li class="three">NEWS</li>
+    <% end %>
+  </div>
+     
+        
+  <div class="right">
+    <%= button_to 'LOG IN',  '#', :class => "button" %> 
+      <%= button_to 'SIGN UP', '#', :class => "button" %> 
+      <%= form_tag("/search", method: "get") do %>
+        <%= text_field_tag :search, nil, :placeholder => "FIND YOUR CONGRESSMAN" %>
+        <%= submit_tag "SEARCH", :class => "button" %>
+    <% end %>
+
+    <li> <%= link_to 'OR USE THE DIRECTORY', '#' %> </li>
+   </div>
+</header>
