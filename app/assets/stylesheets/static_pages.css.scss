@@ -1,3 +1,33 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.static {
+  background-image: url('ps_neutral.png');
+  height: 500px;
+  margin-top: -24px;
+
+  h1 {
+    text-align: center;
+    padding-top: 75px;
+    font-size: 2.8em;
+    letter-spacing: 0.5em;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 15px;
+  }
+
+  li {
+  	list-style: none;
+  }
+
+  img {
+  	height: 145px;
+  	width: 145px;
+  	border-radius: 50%;
+  	border: 1px solid black;
+  }
+}
