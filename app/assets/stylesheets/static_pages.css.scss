@@ -4,30 +4,59 @@
 
 .static {
   background-image: url('ps_neutral.png');
-  height: 500px;
+  height: 525px;
   margin-top: -24px;
 
   h1 {
     text-align: center;
-    padding-top: 75px;
+    padding-top: 65px;
     font-size: 2.8em;
     letter-spacing: 0.5em;
   }
 
   h3 {
     text-align: center;
-    font-size: 1.5em;
-    padding-top: 15px;
+    font-size: 1.7em;
+    padding-top: 10px;
   }
 
   li {
   	list-style: none;
   }
 
-  img {
-  	height: 145px;
-  	width: 145px;
-  	border-radius: 50%;
-  	border: 1px solid black;
+  .image_block {
+    margin-top: 40px;
+
+    img {
+  	  height: 145px;
+  	  width: 145px;
+  	  border-radius: 50%;
+  	  border: 1px solid black;
+    }
+    
+
+    figure {
+      width: 157px;
+      display: inline-block;
+      text-align: center;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    figcaption {
+      margin-top: 5px;
+    }
+  }
+
+  .signup_link {
+    text-align: center;
+    font-size: 2.2em;
+    margin-top: 60px;
+
+    a { 
+      background: none;
+      color: black;
+    }
   }
 }

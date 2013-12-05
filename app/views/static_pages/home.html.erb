@@ -3,9 +3,30 @@
   <h3>Know What Your Represenative Is Up To</h3>
 
   <div class="image_block">
-  	<div class="members_of_congress"></div>
-  	<li><%= image_tag('capitollinedrawing.jpg') %></li>
-  	<li>435 Members of Congress</li>
 
+  	<figure>
+  	  <%= image_tag('capitollinedrawing.jpg') %>
+  	  <figcaption>535 Members of Congress</figcaption>
+    </figure>
+
+    <figure>
+  	  <%= image_tag('graphclipart.jpg') %>
+  	  <figcaption>15% Approval Rating</figcaption>
+    </figure>
+
+    <figure>
+  	  <%= image_tag('90percentclipart.jpeg') %>
+  	  <figcaption>90% Re-Election Rate</figcaption>
+    </figure>
+
+    <figure>
+  	  <%= image_tag('questionmarkclipart.jpeg', :class => "queston_mark") %>
+  	  <figcaption>Do You See the Problem?</figcaption>
+    </figure>
+
+  </div>
+
+  <div class="signup_link">
+    <a href="#">Sign up now for updates about your represenatives</a>
   </div>
 </div>
