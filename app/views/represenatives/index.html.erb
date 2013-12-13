@@ -1,0 +1,19 @@
+<div class="directory">
+  <div class="house">
+  	HOUSE
+    <% @house.each do |x| %>
+      <li><%= x.first_name %> 
+      <%= x.last_name %>
+      <br>
+    <% end %>
+  </div>
+
+  <div class="senate">
+  	SENATE
+  	<% @senate.each do |x| %>
+  	<li><%= x.first_name %>  	
+  		<%= x.last_name %></li>
+  		<br>
+  	<% end %>
+  </div>
+</div>
